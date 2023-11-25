@@ -7,7 +7,7 @@ const Services = () => {
             <h1 className="text-xl font-bold text-gray-800">My Services</h1>
 
             <div className="flex flex-col md:flex-row justify-evenly items-center my-5">
-                <Link to='/copywriting' className="hover:bg-gray-100 transition duration-300 rounded-lg shadow-md">
+                <Link to='copywriting' className="hover:bg-gray-100 transition duration-300 rounded-lg shadow-md">
                     <div className="flex items-center space-x-5 p-3">
                         <img
                             className="w-16 h-16 object-cover"
