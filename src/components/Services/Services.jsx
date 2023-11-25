@@ -1,6 +1,6 @@
 const Services = () => {
     return ( 
-        <div className="container mx-auto my-28 text-start">
+        <div className="container mx-auto p-5 lg:p-0 my-28 text-start">
             <h1 className="text-xl font-bold text-gray-800">Services I Offer</h1>
             <div className="flex flex-col md:flex-row justify-evenly items-center my-5">
                 <div className="flex justify-evenly space-x-5">
