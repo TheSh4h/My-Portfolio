@@ -7,3 +7,16 @@
   line-height: 1.5;
   font-weight: 400;
 }
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #2b3440 white;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: white;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: #1f2937;
+}
