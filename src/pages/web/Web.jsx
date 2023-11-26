@@ -48,7 +48,7 @@ const Web = () => {
                     />
 
                     <div className="flex flex-col justify-between space-y-4 items-center p-10">
-                        <h1 className="text-xl font-bold text-gray-800">E-KART</h1>
+                        <h1 className="text-xl font-bold text-gray-800">CAR RENTAL</h1>
                         <p className="w-64 text-gray-600 font-semibold">E-Kart is an online platform that allows you to shop different products from different categories i.e Gym, Books, Outfits, Electronics</p>
                         
                         <div className="flex justify-around">
