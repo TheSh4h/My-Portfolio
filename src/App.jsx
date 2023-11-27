@@ -3,7 +3,7 @@ import './App.css'
 import RootLayout from './layouts/RootLayout'
 import Copywriting from './pages/copywriting/Copywriting'
 import Home from './pages/Home/Home'
-import Web from './pages/web/web'
+import Web from './pages/web/Web'
 import ServicePage from './pages/ServicePage'
 import ContactPage from './pages/ContactPage'
 
