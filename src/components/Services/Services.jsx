@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Services = () => {
     return ( 
-        <div className="container mx-auto p-5 lg:p-0 my-28 text-center">
+        <div id="services" className="container mx-auto p-5 lg:p-0 my-28 text-center">
             
             <h1 className="text-3xl font-bold text-gray-800 my-10">My Services</h1>
 

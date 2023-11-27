@@ -1,6 +1,6 @@
 const Contact = () => {
     return ( 
-        <div className="container mx-auto p-5 lg:p-0 my-10 flex flex-col justify-center items-center">
+        <div id="contact" className="container mx-auto p-5 lg:p-0 my-10 flex flex-col justify-center items-center">
 
             <div className="flex flex-col justify-center items-center">
                 <h1 className="font-bold text-3xl text-gray-800">Contact Me 👇</h1>

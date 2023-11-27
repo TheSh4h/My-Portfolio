@@ -12,12 +12,14 @@ const About = () => {
                     <p className="w-80 mt-2 text-gray-500 text-start pl-3">Hey there! I'm your friendly neighborhood freelancer.</p>
                     <p className="w-80 mt-2 text-gray-500 text-start pl-3">Armed with a keyboard for writing persuasive copy and developing websites.</p>
                     <p className="w-80 my-2 text-gray-500 text-start pl-3">Let's give your brand a special touch and maybe even make your competitors jealous.</p>
-                    <button 
-                        className="bg-gray-800 text-white font-bold px-10 py-4 rounded-full
-                            border-2 border-gray-800 shadow-2xl hover:bg-white hover:text-gray-800 transition"
-                    >
-                        Contact Me
-                    </button>
+                    <a href="#contact">
+                        <div 
+                            className="bg-gray-800 text-white font-bold px-10 py-4 rounded-full
+                                border-2 border-gray-800 shadow-2xl hover:bg-white hover:text-gray-800 transition"
+                        >
+                            Contact Me
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
