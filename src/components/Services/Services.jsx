@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 
 const Services = () => {
     return ( 
-        <div className="container mx-auto p-5 lg:p-0 my-28 text-start">
+        <div className="container mx-auto p-5 lg:p-0 my-28 text-center">
             
-            <h1 className="text-xl font-bold text-gray-800">My Services</h1>
+            <h1 className="text-3xl font-bold text-gray-800 my-10">My Services</h1>
 
-            <div className="flex flex-col md:flex-row justify-evenly items-center my-5">
-                <Link to='copywriting' className="hover:bg-gray-100 transition duration-300 rounded-lg shadow-md">
+            <div className="flex flex-col md:flex-row justify-evenly items-center mt-5">
+                <Link to='copywriting' className="hover:bg-gray-100 transition duration-300 rounded-lg shadow-lg">
                     <div className="flex items-center space-x-5 p-3">
                         <img
                             className="w-16 h-16 object-cover"
@@ -24,7 +24,7 @@ const Services = () => {
 
                 </Link>
 
-               <Link to='/web' className="hover:bg-gray-100 transition duration-300 rounded-lg shadow-md">
+               <Link to='/web' className="hover:bg-gray-100 transition duration-300 rounded-lg shadow-lg">
                     <div className="flex items-center space-x-5 p-3">
                         <img
                             className="w-16 h-16 object-cover"
