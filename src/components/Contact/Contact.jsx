@@ -14,7 +14,7 @@ const Contact = () => {
                     </div>
                 </a>
 
-                {/* <h1 className="font-bold text-xl text-gray-800">Connect with me 👇</h1> */}
+                <h1 className="font-bold text-xl text-gray-800">Connect with me 👇</h1>
 
                <div className="flex m-5 space-x-5">
                     <a href="https://www.instagram.com/thepitchsmith/" target="_blank">

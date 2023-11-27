@@ -7,13 +7,10 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white font-bold text-xl">Haseeb Shah</div>
         <div className="flex space-x-4">
-          <NavLink to="/about" className="text-white" activeClassName="font-bold">
-            About Me
+          <NavLink to="/services" className="text-white font-bold" activeClassName="underline">
+            Services
           </NavLink>
-          <NavLink to="/portfolio" className="text-white" activeClassName="font-bold">
-            Portfolio
-          </NavLink>
-          <NavLink to="/contact" className="text-white" activeClassName="font-bold">
+          <NavLink to="/contact" className="text-white font-bold" activeClassName="underline">
             Contact
           </NavLink>
         </div>
