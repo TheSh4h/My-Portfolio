@@ -1,9 +1,7 @@
-//import './Interest.css'
-
 const Interest = () => {
     return ( 
         <div className="container mx-auto p-5 lg:p-0 flex flex-col justify-center items-center">
-            <h1 className="text-xl font-bold text-gray-800">Why Me</h1>
+            <h1 className="text-3xl font-bold text-gray-800">Why Me</h1>
 
             <ul className='my-5 p-3 text-gray-500 text-md'>
                 <li className="flex items-center text-start p-2">
