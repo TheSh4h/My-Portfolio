@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Web = () => {
     return ( 
         <div>
@@ -8,10 +10,12 @@ const Web = () => {
                     <div className="flex flex-col justify-center items-center space-y-5">
                         <h1 className="text-4xl font-bold text-gray-800 my-5">Let's Make Your Brand Standout in the Crowd</h1>
                         <div>
-                            <div 
-                                className="font-semibold px-16 py-5 bg-gray-800 text-white shadow-xl
-                                border-2 border-gray-800 hover:bg-white hover:text-gray-800 transition duration-200 cursor-pointer">CONTACT ME NOW
+                            <Link to='/contact'>
+                                <div 
+                                    className="font-semibold px-16 py-5 bg-gray-800 text-white shadow-xl
+                                    border-2 border-gray-800 hover:bg-white hover:text-gray-800 transition duration-200 cursor-pointer">CONTACT ME NOW
                                 </div>
+                            </Link>
                             <p className="text-md text-gray-500 py-2">Hurry up before our schedule for the month is filled</p>
                         </div>
                     </div>
@@ -111,10 +115,13 @@ const Web = () => {
                 </div>
 
                 <div>
-                    <div className="font-semibold px-16 py-5 bg-gray-800 text-white shadow-xl
-                        border-2 border-gray-800 hover:bg-white hover:text-gray-800 transition duration-200 cursor-pointer">CONTACT ME NOW
+                    <Link to='/contact'>
+                        <div 
+                            className="font-semibold px-16 py-5 bg-gray-800 text-white shadow-xl
+                            border-2 border-gray-800 hover:bg-white hover:text-gray-800 transition duration-200 cursor-pointer">CONTACT ME NOW
                         </div>
-                        <p className="text-md text-gray-500 py-2">Hurry up before our schedule for the month is filled</p>
+                    </Link>
+                    <p className="text-md text-gray-500 py-2">Hurry up before our schedule for the month is filled</p>
                 </div>
 
             </div>
