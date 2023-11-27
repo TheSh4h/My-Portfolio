@@ -1,8 +1,38 @@
 const Web = () => {
     return ( 
         <div>
+            <div className="container mx-auto p-5 flex flex-col items-center justify-center space-y-10 my-10">
+                
+                <div className="flex flex-col justify-center items-center space-y-20 mb-10">
 
-            <div className="container mx-auto p-5 flex flex-col items-center justify-between space-y-10 my-10">
+                    <div className="flex flex-col justify-center items-center space-y-5">
+                        <h1 className="text-4xl font-bold text-gray-800 my-5">Let's Make Your Brand Standout in the Crowd</h1>
+                        <div 
+                        className="font-semibold px-16 py-5 bg-gray-800 text-white shadow-xl
+                        border-2 border-gray-800 hover:bg-white hover:text-gray-800 transition duration-200 cursor-pointer">SCHEDULE YOUR FREE CALL</div>
+                        <p className="text-md text-gray-500 py-2">Limited spots available; apply before it's full</p>
+                    </div>
+                    <div className="space-y-3">
+                        <h1 className="text-4xl font-semibold text-gray-800">I'll Help You</h1>
+                        <ul className="text-start text-xl text-gray-500">
+                            <li> <span className="text-yellow-500 font-bold text-2xl">✓</span> Provide a unique identity to your brand</li>
+                            <li> <span className="text-yellow-500 font-bold text-2xl">✓</span> Make your business appear legit and authentic</li>
+                            <li> <span className="text-yellow-500 font-bold text-2xl">✓</span> Generate more leads</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div className="lg:flex justify-center items-center space-x-10">
+                    <h1  className="py-3 font-bold">Tech Stack | </h1>
+                    <ul className="flex justify-between space-x-5">
+                        <li className="hover:-translate-y-3 transition duration-500 cursor-pointer">
+                            <img src="https://skillicons.dev/icons?i=html,css,js" />
+                        </li>
+                        <li className="hover:-translate-y-3 transition duration-500 cursor-pointer">
+                            <img src="https://skillicons.dev/icons?i=react,redux,tailwind" />
+                        </li>
+                    </ul>
+                </div>
 
                 <div className="rounded-xl overflow-hidden p-5 lg:w-[900px] 
                 shadow-lg shadow-gray-500 lg:flex justify-between bg-gray-50">
@@ -54,7 +84,7 @@ const Web = () => {
 
                     <div className="flex flex-col justify-between space-y-4 items-center p-10">
                         <h1 className="text-xl font-bold text-gray-800">CAR RENTAL</h1>
-                        <p className="w-64 text-gray-600 font-semibold">E-Kart is an online platform that allows you to shop different products from different categories i.e Gym, Books, Outfits, Electronics</p>
+                        <p className="w-64 text-gray-600 font-semibold">Car Rental is an online platform which allows you to browse through wide variety of cars which are available for rent</p>
                         
                         <div className="flex justify-around">
                             <div className="shadow-lg p-3 rounded-lg"> React </div>
@@ -73,6 +103,13 @@ const Web = () => {
                             </a>
                         </div>
                     </div>
+                </div>
+
+                <div>
+                    <div className="font-semibold px-16 py-5 bg-gray-800 text-white shadow-xl
+                        border-2 border-gray-800 hover:bg-white hover:text-gray-800 transition duration-200 cursor-pointer">SCHEDULE YOUR FREE CALL
+                        </div>
+                        <p className="text-md text-gray-500 py-2">Limited spots available; apply before it's full</p>
                 </div>
 
             </div>
