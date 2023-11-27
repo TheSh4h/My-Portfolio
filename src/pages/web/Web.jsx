@@ -7,10 +7,13 @@ const Web = () => {
 
                     <div className="flex flex-col justify-center items-center space-y-5">
                         <h1 className="text-4xl font-bold text-gray-800 my-5">Let's Make Your Brand Standout in the Crowd</h1>
-                        <div 
-                        className="font-semibold px-16 py-5 bg-gray-800 text-white shadow-xl
-                        border-2 border-gray-800 hover:bg-white hover:text-gray-800 transition duration-200 cursor-pointer">SCHEDULE YOUR FREE CALL</div>
-                        <p className="text-md text-gray-500 py-2">Limited spots available; apply before it's full</p>
+                        <div>
+                            <div 
+                                className="font-semibold px-16 py-5 bg-gray-800 text-white shadow-xl
+                                border-2 border-gray-800 hover:bg-white hover:text-gray-800 transition duration-200 cursor-pointer">CONTACT ME NOW
+                                </div>
+                            <p className="text-md text-gray-500 py-2">Hurry up before our schedule for the month is filled</p>
+                        </div>
                     </div>
                     <div className="space-y-3">
                         <h1 className="text-4xl font-semibold text-gray-800">I'll Help You</h1>
@@ -33,6 +36,8 @@ const Web = () => {
                         </li>
                     </ul>
                 </div>
+
+                <h1 className="text-3xl font-bold text-gray-800">My Projects</h1>
 
                 <div className="rounded-xl overflow-hidden p-5 lg:w-[900px] 
                 shadow-lg shadow-gray-500 lg:flex justify-between bg-gray-50">
@@ -107,9 +112,9 @@ const Web = () => {
 
                 <div>
                     <div className="font-semibold px-16 py-5 bg-gray-800 text-white shadow-xl
-                        border-2 border-gray-800 hover:bg-white hover:text-gray-800 transition duration-200 cursor-pointer">SCHEDULE YOUR FREE CALL
+                        border-2 border-gray-800 hover:bg-white hover:text-gray-800 transition duration-200 cursor-pointer">CONTACT ME NOW
                         </div>
-                        <p className="text-md text-gray-500 py-2">Limited spots available; apply before it's full</p>
+                        <p className="text-md text-gray-500 py-2">Hurry up before our schedule for the month is filled</p>
                 </div>
 
             </div>
