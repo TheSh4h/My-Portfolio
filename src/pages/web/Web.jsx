@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Web = () => {
     return ( 
-        <div>
+        <div className="overflow-hidden">
             <div className="container mx-auto p-5 flex flex-col items-center justify-center space-y-10 my-10">
                 
                 <div className="flex flex-col justify-center items-center space-y-20 mb-10">
