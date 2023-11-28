@@ -43,7 +43,7 @@ const Web = () => {
 
                 <h1 className="text-3xl font-bold text-gray-800">My Projects</h1>
 
-                <div className="rounded-xl overflow-hidden p-5 lg:w-[900px] 
+                <div className="rounded-xl overflow-hidden p-5 m-5  
                 shadow-lg shadow-gray-500 lg:flex justify-between bg-gray-50">
 
                     <a href="https://e-kart-iota.vercel.app/" target="_blank">
@@ -80,7 +80,7 @@ const Web = () => {
 
                 {/* Car Rental */}
 
-                <div className="rounded-xl overflow-hidden p-5 lg:w-[900px] 
+                <div className="rounded-xl overflow-hidden p-5 m-5  
                 shadow-lg shadow-gray-500 lg:flex flex-row-reverse justify-between bg-gray-50">
                     <a href="https://car-rental-app-plum.vercel.app/" target="_blank">
                         <img 
