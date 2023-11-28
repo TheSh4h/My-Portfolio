@@ -24,7 +24,7 @@ const Services = () => {
 
                 </Link>
 
-               <Link to='/web' className="hover:bg-gray-100 transition duration-300 rounded-lg shadow-lg">
+               <Link to='/web' className="hover:bg-gray-100 transition duration-300 rounded-lg shadow-lg my-5 lg:my-0">
                     <div className="flex items-center space-x-5 p-3">
                         <img
                             className="w-16 h-16 object-cover"
