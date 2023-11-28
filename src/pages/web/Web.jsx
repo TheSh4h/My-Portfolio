@@ -29,7 +29,7 @@ const Web = () => {
                     </div>
                 </div>
 
-                <div className="lg:flex justify-center items-center space-x-10">
+                <div className="flex flex-col lg:flex-row justify-center items-center space-x-10">
                     <h1  className="py-3 font-bold">Tech Stack | </h1>
                     <ul className="flex justify-between space-x-5">
                         <li className="hover:-translate-y-3 transition duration-500 cursor-pointer">
